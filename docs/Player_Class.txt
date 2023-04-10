@@ -1,0 +1,51 @@
+class player
+{
+    public:
+        player();
+        virtual ~player();
+
+        vec3 scaleSize; //width, height, length, 3 values
+        vec3 verts[4]; //four corners of quad, 12 values
+        vec3 pPos; //player position
+        
+        char playerDir; //player direction
+        
+        enum acts{IDLE,WALKR,WALKL,JUMP,DASH,ATTACK,SKILL1,SKILL2,SKILL3,HIT,DIE};
+        acts actionTrigger;
+        
+        int iFrames; //number of invincibility frames player has after getting hit or dashing
+        
+        int numJumps; //number of jumps player can make
+        //default jump number is 1, can be increased by items
+        //for example "double jump boots" -> +1 jumps
+
+        int numDashes; //number of dashes player can make
+        //default dash number is 1, can be increased by items
+        //for example "wind belt" +1 dashes
+
+        float healthBar;
+        float manaBar;
+        
+
+        float runSpeed;
+        float jumpSpeed;
+        float dashSpeed;
+        float attackSpeed;
+
+        void drawPlayer();
+        void playerInit(char*, int, int); //player initialization
+        void actions(acts);
+
+        int hFrames; //horizontal num of frames
+        int vFrames; //vertical num of frames
+
+
+        float xMax, yMax, xMin, yMin; //values that help us get a frame
+        GLuint tex; //texture handler
+        textureLoader *tLoad = new textureLoader();
+
+
+    protected:
+
+    private:
+};

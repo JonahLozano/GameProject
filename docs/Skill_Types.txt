@@ -1,0 +1,23 @@
+//Player Skill Types
+/*
+1. Self-Target: skill that only affects the player
+i.e. gives the player a buff of some kind or activates an instant effect
+Buff example: apply fire damage to attack for 10 sec
+Instant Effect Example: heal for 50% health
+
+2. Skill Shot: projectile skill that player has to aim
+projectile launches from player and its trajectory is determined by player's mouse cursor position
+Example: fireball skill, fireball launches from player's current position and travels towards
+where the player's mouse cursor was
+
+3. Area-Target: skill that affects an area the player targets
+The area that will be affected is determined by player's mouse cursor position
+Example: explosion skill, triggers an explosion where the player's mouse cursor is
+
+4. Non-Target: skill that launches projectile or triggers an area of effect without
+using mouse cursor. The origin of the skill is the player's current position
+Example 1: nova, triggers an explosion with the player as its center. damages all enemies near the player
+Example 2: double axe, launches 2 axe projectiles, one travels behind the player, the other travels in front
+of the player.
+
+*/

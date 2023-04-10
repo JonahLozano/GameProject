@@ -1,0 +1,14 @@
+//Enemy Types
+/*
+1. Common: weak enemies that can spawn in large amounts (5-10).
+Low Health and Low damage.
+
+2. Elite: strong enemies that can only spawn in limited numbers (3-4).
+Moderate Health and Moderate Damage.
+
+3. Ultra: very strong enemy, only one or two can spawn at a time
+High Health and High Damage.
+
+4. Boss: unique enemy that spawns in boss level
+Varying Health and Varying Damage.
+*/

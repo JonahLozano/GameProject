@@ -1,0 +1,28 @@
+//Controls
+//Movement
+/*
+W: Jump
+A: Move Left
+S: Descend
+D: Move Right
+Space: Jump
+Left Ctrl: Dash
+*/
+
+//Attack
+/*
+Mouse Right Button: Attack
+Mouse Left Button: Activate Skill_1
+Mouse Middle Button: Activate Skill_2
+R: Activate Skill_3
+*/
+
+//Other
+/*
+Mouse Wheel Scroll Up: Camera Zoom-In
+Mouse Wheel Scroll Down: Camera Zoom-Out
+E: Interact
+Q: Open Inventory
+Tab: Open Map
+Esc: Open Menu
+*/

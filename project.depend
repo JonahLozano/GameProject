@@ -1,0 +1,288 @@
+# depslib dependency file v1.0
+1680981703 source:c:\gamedev2023\project\main.cpp
+	<windows.h>
+	<string.h>
+	<stdlib.h>
+	<iostream>
+	<windows.h>
+	"include/GL_Scene.h"
+
+1681092067 c:\gamedev2023\project\include\gl_scene.h
+	<windows.h>
+	<iostream>
+	<string.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	"Model.h"
+	"Inputs.h"
+	"parallax.h"
+
+1675127623 c:\gamedev2023\project\common\include\gl\glut.h
+	<windows.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1679958484 c:\gamedev2023\project\include\model.h
+	<windows.h>
+	<GL/glut.h>
+	"textureLoader.h"
+
+1676513047 c:\gamedev2023\project\include\textureloader.h
+	<SOIL.h>
+	<GL/gl.h>
+	<iostream>
+
+1676340328 c:\gamedev2023\project\common\include\soil.h
+
+1681092036 c:\gamedev2023\project\include\inputs.h
+	<windows.h>
+	"Model.h"
+	"parallax.h"
+	"player.h"
+	"levelLoader.h"
+	"GL_Scene.h"
+
+1679958508 c:\gamedev2023\project\include\parallax.h
+	"textureLoader.h"
+	<time.h>
+
+1681090706 c:\gamedev2023\project\include\player.h
+	<GL/gl.h>
+	"textureLoader.h"
+	"commons.h"
+	"sounds.h"
+
+1681001653 c:\gamedev2023\project\include\commons.h
+	<math.h>
+	<iostream>
+	<vector>
+	<memory>
+	<fstream>
+	<sstream>
+	<SNDS/irrklang.h>
+	"Block.h"
+	"AirBlock.h"
+	"GrassBlock.h"
+	"BoundaryBlock.h"
+	"ChestBlock.h"
+	"CloudBlock.h"
+	"EnemyBlock.h"
+	"FinishBlock.h"
+	"SpawnBlock.h"
+
+1679529216 c:\gamedev2023\project\common\include\snds\irrklang.h
+	"ik_irrKlangTypes.h"
+	"ik_vec3d.h"
+	"ik_IRefCounted.h"
+	"ik_IVirtualRefCounted.h"
+	"ik_ESoundOutputDrivers.h"
+	"ik_ESoundEngineOptions.h"
+	"ik_EStreamModes.h"
+	"ik_SAudioStreamFormat.h"
+	"ik_ISoundEngine.h"
+	"ik_ISoundSource.h"
+	"ik_ISound.h"
+	"ik_IAudioStream.h"
+	"ik_IAudioStreamLoader.h"
+	"ik_ISoundEffectControl.h"
+	"ik_ISoundStopEventReceiver.h"
+	"ik_IFileFactory.h"
+	"ik_IFileReader.h"
+	"ik_ISoundDeviceList.h"
+	"ik_IAudioRecorder.h"
+	"ik_ISoundMixedOutputReceiver.h"
+
+1679529216 c:\gamedev2023\project\common\include\snds\ik_irrklangtypes.h
+	<wchar.h>
+
+1679529216 c:\gamedev2023\project\common\include\snds\ik_vec3d.h
+	<math.h>
+	"ik_irrKlangTypes.h"
+
+1679529216 c:\gamedev2023\project\common\include\snds\ik_irefcounted.h
+	"ik_irrKlangTypes.h"
+
+1679529216 c:\gamedev2023\project\common\include\snds\ik_ivirtualrefcounted.h
+	"ik_irrKlangTypes.h"
+
+1679529216 c:\gamedev2023\project\common\include\snds\ik_esoundoutputdrivers.h
+
+1679529216 c:\gamedev2023\project\common\include\snds\ik_esoundengineoptions.h
+
+1679529216 c:\gamedev2023\project\common\include\snds\ik_estreammodes.h
+
+1679529216 c:\gamedev2023\project\common\include\snds\ik_saudiostreamformat.h
+	"ik_IRefCounted.h"
+
+1679529216 c:\gamedev2023\project\common\include\snds\ik_isoundengine.h
+	"ik_IRefCounted.h"
+	"ik_vec3d.h"
+	"ik_ISoundSource.h"
+	"ik_ISound.h"
+	"ik_EStreamModes.h"
+	"ik_IFileFactory.h"
+	"ik_ISoundMixedOutputReceiver.h"
+
+1679529216 c:\gamedev2023\project\common\include\snds\ik_isoundsource.h
+	"ik_IVirtualRefCounted.h"
+	"ik_vec3d.h"
+	"ik_EStreamModes.h"
+	"ik_SAudioStreamFormat.h"
+
+1679529216 c:\gamedev2023\project\common\include\snds\ik_isound.h
+	"ik_IVirtualRefCounted.h"
+	"ik_ISoundEffectControl.h"
+	"ik_vec3d.h"
+
+1679529216 c:\gamedev2023\project\common\include\snds\ik_isoundeffectcontrol.h
+	"ik_IVirtualRefCounted.h"
+	"ik_vec3d.h"
+
+1679529216 c:\gamedev2023\project\common\include\snds\ik_ifilefactory.h
+	"ik_IRefCounted.h"
+
+1679529216 c:\gamedev2023\project\common\include\snds\ik_isoundmixedoutputreceiver.h
+	"ik_IRefCounted.h"
+	"ik_SAudioStreamFormat.h"
+
+1679529216 c:\gamedev2023\project\common\include\snds\ik_iaudiostream.h
+	"ik_IRefCounted.h"
+	"ik_SAudioStreamFormat.h"
+
+1679529216 c:\gamedev2023\project\common\include\snds\ik_iaudiostreamloader.h
+	"ik_IRefCounted.h"
+	"ik_IFileReader.h"
+
+1679529216 c:\gamedev2023\project\common\include\snds\ik_ifilereader.h
+	"ik_IRefCounted.h"
+
+1679529216 c:\gamedev2023\project\common\include\snds\ik_isoundstopeventreceiver.h
+	"ik_IRefCounted.h"
+	"ik_SAudioStreamFormat.h"
+
+1679529216 c:\gamedev2023\project\common\include\snds\ik_isounddevicelist.h
+	"ik_IRefCounted.h"
+
+1679529216 c:\gamedev2023\project\common\include\snds\ik_iaudiorecorder.h
+	"ik_IRefCounted.h"
+	"ik_ISoundSource.h"
+
+1681080315 c:\gamedev2023\project\include\block.h
+	<GL/gl.h>
+	"textureLoader.h"
+
+1681000697 c:\gamedev2023\project\include\airblock.h
+	"commons.h"
+
+1681001572 c:\gamedev2023\project\include\grassblock.h
+	"commons.h"
+
+1681001023 c:\gamedev2023\project\include\boundaryblock.h
+	"commons.h"
+
+1681001104 c:\gamedev2023\project\include\chestblock.h
+	"commons.h"
+
+1681001365 c:\gamedev2023\project\include\cloudblock.h
+	"commons.h"
+
+1681001379 c:\gamedev2023\project\include\enemyblock.h
+	"commons.h"
+
+1681001461 c:\gamedev2023\project\include\finishblock.h
+	"commons.h"
+
+1681001704 c:\gamedev2023\project\include\spawnblock.h
+	"commons.h"
+
+1679959029 c:\gamedev2023\project\include\sounds.h
+	"commons.h"
+
+1680981279 source:c:\gamedev2023\project\src\checkcollision.cpp
+	"../include/checkcollision.h"
+
+1679958601 c:\gamedev2023\project\include\checkcollision.h
+	"commons.h"
+
+1680981288 source:c:\gamedev2023\project\src\commons.cpp
+	"../include/commons.h"
+
+1681091011 source:c:\gamedev2023\project\src\enms.cpp
+	"../include/enms.h"
+
+1681090931 c:\gamedev2023\project\include\enms.h
+	<GL/gl.h>
+	"textureLoader.h"
+	"commons.h"
+	<time.h>
+
+1680981508 source:c:\gamedev2023\project\src\gl_light.cpp
+	"../include/GL_Light.h"
+
+1679958562 c:\gamedev2023\project\include\gl_light.h
+	"GL_Scene.h"
+	<GL/gl.h>
+
+1681091724 source:c:\gamedev2023\project\src\inputs.cpp
+	"../include/Inputs.h"
+	"../include/sounds.h"
+
+1680981516 source:c:\gamedev2023\project\src\model.cpp
+	"../include/Model.h"
+
+1681079130 source:c:\gamedev2023\project\src\parallax.cpp
+	"../include/parallax.h"
+
+1681090747 source:c:\gamedev2023\project\src\player.cpp
+	"../include/player.h"
+
+1679962144 source:c:\gamedev2023\project\src\sounds.cpp
+	"../include/sounds.h"
+	"../include/commons.h"
+
+1680981543 source:c:\gamedev2023\project\src\textureloader.cpp
+	"../include/textureLoader.h"
+
+1681092303 source:c:\gamedev2023\project\src\gl_scene.cpp
+	"../include/GL_Scene.h"
+	"../include/GL_Light.h"
+	"../include/player.h"
+	"../include/enms.h"
+	"../include/checkCollision.h"
+	"../include/sounds.h"
+	"../include/levelLoader.h"
+
+1681090393 c:\gamedev2023\project\include\levelloader.h
+	"commons.h"
+
+1681090512 source:c:\gamedev2023\project\src\levelloader.cpp
+	"../include/levelLoader.h"
+
+1681083190 source:c:\gamedev2023\project\src\block.cpp
+	"Block.h"
+
+1681000605 source:c:\gamedev2023\project\src\airblock.cpp
+	"AirBlock.h"
+
+1681000962 source:c:\gamedev2023\project\src\boundaryblock.cpp
+	"BoundaryBlock.h"
+
+1681001136 source:c:\gamedev2023\project\src\chestblock.cpp
+	"ChestBlock.h"
+
+1681001268 source:c:\gamedev2023\project\src\cloudblock.cpp
+	"CloudBlock.h"
+
+1681001312 source:c:\gamedev2023\project\src\enemyblock.cpp
+	"EnemyBlock.h"
+
+1681001488 source:c:\gamedev2023\project\src\finishblock.cpp
+	"FinishBlock.h"
+
+1681001592 source:c:\gamedev2023\project\src\grassblock.cpp
+	"GrassBlock.h"
+
+1681001688 source:c:\gamedev2023\project\src\spawnblock.cpp
+	"SpawnBlock.h"
+
